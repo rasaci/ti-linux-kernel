@@ -69,6 +69,7 @@
 		};
 	};
 
+	/*
 	gpio-keys {
 		compatible = "gpio-keys";
 		status = "okay";
@@ -101,6 +102,7 @@
 			gpios = <&pca9534 0 GPIO_ACTIVE_LOW>;
 		};
 	};
+	*/
 
 	ov5640_buf_en: ov5640-buf-en {
 		compatible = "regulator-fixed";
